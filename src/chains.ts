@@ -1,6 +1,8 @@
 export enum ChainId {
   MAINNET = 1,
   GOERLI = 5,
+  MAAL_TESTNET = 880,
+  MAAL_MMAINNET = 786,
   SEPOLIA = 11155111,
   OPTIMISM = 10,
   OPTIMISM_GOERLI = 420,
@@ -20,6 +22,8 @@ export enum ChainId {
 
 export const SUPPORTED_CHAINS = [
   ChainId.MAINNET,
+  ChainId.MAAL_TESTNET,
+  ChainId.MAAL_MMAINNET,
   ChainId.OPTIMISM,
   ChainId.OPTIMISM_GOERLI,
   ChainId.ARBITRUM_ONE,
